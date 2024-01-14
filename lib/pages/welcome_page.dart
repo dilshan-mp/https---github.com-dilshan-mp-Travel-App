@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/misc/colors.dart';
 import 'package:travel_app/widgets/app_large_text.dart';
+import 'package:travel_app/widgets/app_text.dart';
 
 class Welcomepage extends StatefulWidget {
   const Welcomepage({super.key});
@@ -39,8 +41,19 @@ class _WelcomepageState extends State<Welcomepage> {
               child: Row(
                 children: [
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       AppLargeText(text: "Trips"),
+                      AppText(text: "Mountain",size: 30,),
+                      const SizedBox(height: 20,),
+                      SizedBox(
+                        width: 250,
+                        child: AppText(
+                          text: "Mountain hikes you an incredible sense of freedom along with endurance test ",
+                          color: AppColors.textColor2,
+                          size: 14,
+                        ),
+                      )
                     ],
                   )
                 ],
