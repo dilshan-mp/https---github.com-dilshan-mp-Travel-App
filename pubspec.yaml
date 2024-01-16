@@ -66,6 +66,10 @@ flutter:
     - assets/img/welcom2.jpg
     - assets/img/welcome3.jpg
     - assets/img/AdobeStock_645570713_Preview.jpeg
+    - assets/img/brandon-mcdonald-_oU62drqdho-unsplash.jpg
+    - assets/img/ibrahim-razzan-3wb4KYqGXLU-unsplash.jpg
+    - assets/img/toomas-tartes-Yizrl9N_eDA-unsplash.jpg
+    - assets/img/farshad-rezvanian-Eelegt4hFNc-unsplash.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
