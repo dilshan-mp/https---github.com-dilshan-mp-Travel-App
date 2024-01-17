@@ -3,6 +3,7 @@ import 'package:travel_app/misc/colors.dart';
 import 'package:travel_app/widgets/app_button.dart';
 import 'package:travel_app/widgets/app_large_text.dart';
 import 'package:travel_app/widgets/app_text.dart';
+import 'package:travel_app/widgets/responsive_button.dart';
 
 class DetailsPage extends StatefulWidget {
   const DetailsPage({super.key});
@@ -134,6 +135,7 @@ class _DetailsPageState extends State<DetailsPage> {
           Positioned(
             bottom: 20,
             left: 20,
+            right: 20,
             child: Row(
               children: [
                 AppButton(
@@ -143,7 +145,11 @@ class _DetailsPageState extends State<DetailsPage> {
                      borderColor: AppColors.textColor2,
                      isIcon: true,
                      icon:Icons.favorite_border ,
-                    )
+                    ),
+                    SizedBox(width: 20,),
+                ResponsiveButton(
+                  isResponsive: true,
+                )
               ],
             )
           )
