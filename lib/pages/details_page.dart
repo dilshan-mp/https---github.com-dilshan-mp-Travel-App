@@ -120,11 +120,34 @@ class _DetailsPageState extends State<DetailsPage> {
                               
                         }
                         )
-                     )
+                     ),
+                      const SizedBox(height: 10,),
+                      AppLargeText(text: "Description",color: Colors.black.withOpacity(0.8),),
+                      const SizedBox(height: 10,),
+                      AppText(text: "You must go for a travel.Travelling helps get ride of pressure.Go to the mountain to see the nature. ",color: AppColors.mainTextColor,),
+
+
                   ],
                 ),  
             ),
+          ),
+          Positioned(
+            bottom: 20,
+            left: 20,
+            child: Row(
+              children: [
+                AppButton(
+                  color: AppColors.textColor2,
+                   backgroundColor: Colors.white,
+                    size: 60,
+                     borderColor: AppColors.textColor2,
+                     isIcon: true,
+                     icon:Icons.favorite_border ,
+                    )
+              ],
+            )
           )
+          
           ],
         ),
       ),
