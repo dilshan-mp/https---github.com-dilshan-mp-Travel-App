@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 isScrollable: false,
                 indicatorSize: TabBarIndicatorSize.label,
                 //indicator:CircleTabIndicator(color:AppColors.buttonBackground,radius: 4 ) ,
-                tabs: [
+                tabs: const [
                   Tab(text: "Places",),
                    Tab(text: "Inspiration",),
                     Tab(text: "Emotions",),
